@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="./css/estilos.css" rel="stylesheet" />
+    <title>ConnectCast</title>
+</head>
+<body>   
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark text-uppercase bgSection px-5 py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">🎙︁ ConnectCast</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-dark text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-1 px-0 px-lg-3 rounded" href="./views/episodios.html">EPISODIOS</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-1 px-0 px-lg-3 rounded" href="./views/quiensomos.html">QUIEN SOMOS</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-1 px-0 px-lg-3 rounded" href="./views/eventos.html">Eventos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-1 px-0 px-lg-3 rounded" href="./views/contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+            <main>
+                <div class="container-fluid bgSection">
+                                <video autoplay muted loop class="d-none d-md-flex">
+                                <source src="./assets/mp4/podcast-video.mp4" type="video/mp4">               
+                            Tu navegador no soporta el video
+                            </video>          
+                            <section class="container-fluid py-5">
+                                <div class="row gap-5 justify-content-center">
+                                    <h2 class="titulo" class="col-12"> 🎙︁ ConnectCast<br>
+                                    <p class="subtitle"><b>Si te gustan los juegos, los libros, las series y las películas, ¡este es tu podcast!</b>
+                                </p>
+                                </div>
+                            </section>
+
+                    <!-- Episodios Section-->
+                    <section class="container">
+                        <div class="row gap-2 justify-content-center py-2">
+                            <h2 class="subtitle"> Nuestros episodios más recientes:</h2>
+                            <div class="card text-center col-10 col-sm-5 col-md-3 pt-3">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark text-uppercase">ConnectCast.S01E04</h5>
+                                    <p class="card-text text-dark">Matrix <br> Recurso didactico en filosofia.</p>
+                                    <a href="./views/episodio.html" class="btn btn-dark">Escuchar <i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="card text-center col-10 col-sm-5 col-md-3 pt-3">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark text-uppercase">ConnectCast.S01E05</h5>
+                                    <p class="card-text text-dark">Game Of Thrones <br> Los Dilemas de Daenerys targaryen.</p>
+                                    <a href="./views/episodio.html" class="btn btn-dark">Escuchar <i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="card text-center col-10 col-sm-5 col-md-3 pt-3">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark text-uppercase">ConnectCast.S01E06</h5>
+                                    <span class="new">
+                                        Nuevo episodio
+                                    </span>
+                                    <p class="card-text text-dark">Juego Cup Head <br> Vendí mi alma al diablo!.</p>
+                                    <a href="./views/episodio.html" class="btn btn-dark">Escuchar <i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                    </section>
+                        <!-- Contact Section-->
+                        <section class="container py-2 px-5">
+                                <div class="row justify-content-center py-2">
+                                    <h3 class="text-center mb-0 bg-dark text-success">¡Deja tu sugerencia para el próximo episodio!</h3>
+                                    <p class="text-center text-light mb-0 p-3 bg-dark">Participa, comenta, envía tus sugerencias o críticas, valoramos tu participación en este proyecto!😊</p>
+                                    <div class="col-6 col-3 py-3">
+                                        <form id="contactForm">
+                                            <div class="form-floating mb-2 text-dark">
+                                                <input class="form-control" id="name" type="text">
+                                                <label for="name">Nombre Completo</label>
+                                            </div>
+                                            <div class="form-floating mb-2 text-dark">
+                                                <input class="form-control" id="email" type="email">
+                                                <label for="email">Email</label>
+                                            </div>
+                                            <div class="form-floating mb-3 text-dark">
+                                                <textarea class="form-control" id="message" type="text" style="height: 5rem"></textarea>
+                                                <label for="message">Mensaje</label>
+                                            </div>
+                                            <div class="button">
+                                            <button type="submit" class="btn btn-success">Enviar</button>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                        </section>
+            </div>
+        </main>
+<!-- Footer-->
+<footer class="container-fluid footer">
+    <div class="bg-dark row justify-content-center py-2">
+        <div class="redes">
+            <h4>ConnectCast &#169 2021</h4>
+			<h5>Seguinos en nuestras redes</h5>
+			<ul>
+                <a href="#"><i class="fa fa-spotify"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>	
+            </ul>
+		</div>
+    </div>
+</footer>
+
+<script src="https://use.fontawesome.com/8e59f484ab.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
