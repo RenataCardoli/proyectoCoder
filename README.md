@@ -23,7 +23,7 @@ Las contribuciones son lo que hace que la comunidad de código abierto sea un lu
 
 3. Confirma tus cambios (git commit -m 'Add some NewFeature')
 
-4. Empuja a la rama (git push origin feature/NewFeature)
+4. Push a la rama (git push origin feature/NewFeature)
 
 5. Abre una solicitud de extracción
 
