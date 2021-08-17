@@ -138,3 +138,35 @@ video{
     background-color: #fff;
     cursor: pointer;
 }
+
+@media only screen and (max-width:640px){
+    .cards{
+        display: block;
+        width: 450px;
+    }
+    
+    .card-body{
+        padding: 20px 20px 5px 20px;
+        border: none;
+        margin: 0; 
+    }
+
+    .card-text{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+
+}
+
+@media (max-width: 366px) {
+    h1 {
+    font-size: 2.2rem; } 
+}
+
+@media (max-width: 514px) {
+    #fechas p {
+    text-align: center; }
+    #fechas p span, #fechas p b {
+        position: static;
+    } 
+}
