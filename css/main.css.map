@@ -6,7 +6,7 @@
         "../SCSS/_reset.scss",
         "../SCSS/_variables.scss",
         "../SCSS/_layout.scss",
-        "../SCSS/_topologia.scss"
+        "../SCSS/_tipografia.scss"
     ],
     "names": [],
     "file": "main.css"
