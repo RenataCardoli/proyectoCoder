@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,GAAG;CAClB",
+    "mappings": "",
     "sources": [
-        "../SCSS/main.scss"
+        "../SCSS/main.scss",
+        "../SCSS/_reset.scss",
+        "../SCSS/_variables.scss",
+        "../SCSS/_layout.scss"
     ],
     "names": [],
     "file": "main.css"
