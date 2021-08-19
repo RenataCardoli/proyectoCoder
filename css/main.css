@@ -176,12 +176,23 @@ video {
   }
 }
 
-@media (max-width: 514px) {
+@media (max-width: 510px) {
   #fechas p {
     text-align: center;
   }
   #fechas p span, #fechas p b {
     position: static;
+  }
+}
+
+@media (max-width: 766px) {
+  body.index.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #tituloPrincipal {
+    margin: 3rem 0;
+    color: black;
   }
 }
 
